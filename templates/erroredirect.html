@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redirect</title>
+</head>
+<body>
+    {% if message == 'empty_file' %}
+        <b><strong><h3 align="center">Please don't upload empty file</h3></strong></b>
+        <a href="/" align="center">Click here to go back to Main page</a>
+    {% elif message == 'image_file' %}
+        <b><strong><h3 align="center">Please upload only text files</h3></b></strong>
+        <a href="/" align="center">Click here to go back to main page</a>
+    {% endif %}
+</body>
+</html>

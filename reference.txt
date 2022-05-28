@@ -1,0 +1,2 @@
+NLP has many applications, such as Machine Translation, Question Answering Systems, Data Analysis, Text Processing, Text Summarization,
+etc. 

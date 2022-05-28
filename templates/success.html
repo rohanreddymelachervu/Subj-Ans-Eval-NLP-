@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Success</title>
+</head>
+<body>
+    <p>File uploaded successfully ma thanks for using KodeTantresh</p>
+    <p>File name: {{name}}</p>
+    <p>File content uploaded is:</p>
+    <p>{{answer}}</p>
+    <p>Correct answer is: </p>
+    <p>{{correct_answer}}</p>
+    <p>Ma your score out of 10 is {{score}}</p>
+    {% if matches>0 %}
+        <p>Ma you have spelling mistakes so marks deducted accordingly</p>
+    {% endif %}
+</body>
+</html>
